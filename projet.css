@@ -1,0 +1,79 @@
+h2{
+    position: relative;
+    margin-top: 30px;
+    margin-left: 450px;
+    color: violet;   
+    font-size: 50px;
+}
+h2 span{
+    color: red;
+}
+.my{
+    display: flex;
+}
+.present{
+    display: flex;
+    justify-content: space-evenly;
+    margin-left: 20px;
+}
+.present{
+    margin-top: 50px;
+}   
+.l1,.l2,.l3{
+    background-color: transparent;
+    width: 400px;
+    height: 500px;
+    box-shadow: 2px 2px 2px 5px;
+    cursor: pointer;
+}
+.present span{
+    padding-left: 80px;
+}
+footer em{
+    padding: 10px 20px; 
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+footer{
+    display: flex;
+    justify-content: space-between;
+    box-shadow: 10px 10px  10px 20px gray;
+    margin-top: 100px;
+}
+footer{
+    padding-left: 2px;
+    padding-right: 2px;
+    padding: 20px;
+    border-radius: 8px;
+}
+footer p,span{
+    margin-top: 10px;
+}
+.btn-connect{
+    padding: 10px 20px;
+    background: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+.btn-connect:hover{
+    background: salmon;
+    transition: ease-out;
+}
+.connect{
+    position: relative;
+    margin-left: 400px;
+    font-size: 30px;
+    margin-top: 100px;
+}
+.connect a{
+    margin-left: 200px ;
+    cursor: progress;
+}

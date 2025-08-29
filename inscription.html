@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html>
+   <head>
+      <meta charset="UTF-8">
+      <title>inscription</title>
+      <link rel="stylesheet" a href="inscription.css">
+   </head>
+   <body background="D:\Manou\mon site\image\Screenshot (471).png">
+      <center>
+         <table border="3" cellpadding=20>
+             <center><h1>Creation d'un compte</h1></center>
+             <tr>
+                 <td>
+                    <em>Nom:</em><br>
+                       <input type="text" name="nom" size="25"><p>
+                    <em>Prenom:</em><br>
+                       <input type="text" name="prenom" size="25"><p>
+                    <em>Email:</em><br>
+                       <input type="email" size="25"><p>
+                    <em>Mot de passe</em><br>
+                       <input type="password" name="pass" size="25"><p>
+                    <input class="check" type="checkbox" name="choix">Enregistrer mon compte et mon site web 
+                    dans le navigateur pour mon prochain commentaires<br>
+                    
+                 </td>
+             </tr>
+         </table><p>
+          <!--connexion-->
+          <a href="index.html"><input class="com" type="button" value="Connexion"></a>
+     </center>
+   </body>
+</html>
+<div class="FormBox">
+   <label for="Nom">Nom : </label>
+       <input type="text" name="nom" value=""><br>
+   <label for="Mdp">Mot de passe : </label>
+       <input type="password" name="mdp_admin" value="" id="mdp1">
+   <label for="ConMdp">Mot de passe confirmer: </label>
+       <input type="password" name="Con_mdp_admin" value="" oninput="valider_mdp()" id="mdp2"><p>
+   <input type="submit" value="Connecter" id="btn_con" style="display:none">
+   <h4 class="no_valid" id="no_valide" style="display:none">Mot de passe invalide!!!</h4>
+</div>
+
+

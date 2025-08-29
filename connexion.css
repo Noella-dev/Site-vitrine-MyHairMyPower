@@ -1,0 +1,37 @@
+body{
+   background-size: cover;
+   height: 50vh;
+   margin: 150px;
+   box-shadow: 10px 10px 10px 10px;
+   margin-left: 200px;
+   
+}
+em,input{
+    margin-left: 30px;
+}
+table{
+    width: 30%;
+    height: 221px;
+    background: aliceblue;
+}
+
+.sub{
+    position: relative;
+    margin: 10px;
+    left: 90px;
+}
+.sub:hover{
+    background-color: grey;
+}
+ul,ul a{
+    color:cyan;
+}
+li a:hover{
+    color: blue;
+}
+ul li:hover{
+    color:blue;
+}
+.sub,ul li{
+    cursor: pointer;
+}

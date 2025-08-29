@@ -1,0 +1,55 @@
+.Logo{
+    margin-left: -160px;
+    font-weight: 900;
+    margin-top: -20px;
+}
+.imagez{
+    margin-left:50px;
+    margin-top:10px;
+}  
+
+body{
+    margin-left: 160px;
+    margin-top: 50px;
+}
+h3 em1,em2{
+    text-transform: uppercase;
+    font-weight: 700;
+}
+h2 center,H2{
+    color:crimson;
+
+}
+.sary1{
+    margin-left: 60px;
+}
+.contenu{
+    text-align: center;
+
+}
+img{
+    border-radius: 30px;
+}
+td{
+    font-weight: 700;
+    font-style: italic;
+}
+.btn-retour{
+    padding: 10px 20px;
+    background: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+.btn-retour{
+    position: relative;
+    float: right;
+}
+.btn-retour:hover{
+    background: salmon;
+    transition: ease-out;
+} 
+table{
+    margin-left: 100px;
+}

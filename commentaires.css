@@ -1,0 +1,48 @@
+body{
+   background-size: cover;
+   background-position: center;
+   overflow-y: hidden;
+}
+body{
+   box-shadow: 2px 0px 10px 10px;
+   margin-right: 300px;
+   margin-left: 300px;
+   margin-bottom: 200px;
+   margin-top: 200px;
+}
+textarea{
+    background-color:white;
+}
+.btn-retour{
+    padding: 10px 20px;
+    background: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+.btn-retour{
+    position: relative;
+    float: right;
+    left: 250px;
+    margin-top: -190px;
+}
+.btn-retour:hover{
+    background: salmon;
+    transition: ease-out;
+} 
+table{
+    width: 500px;
+    height: 200px;
+    background-color: aliceblue;
+}
+.avis{
+    padding-left: 20px;
+    font-weight :900;
+}
+input{
+    margin-left: 150px;
+}
+input:hover{
+    background-color: grey;
+}

@@ -1,0 +1,165 @@
+.principale{
+    margin-top: 50px;
+    font-weight: 900;
+    overflow-x: hidden;
+    
+}
+.btn-connect,.btn-retour{
+    padding: 10px 20px;
+    background: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+.btn-connect:hover{
+    background: salmon;
+    transition: ease-out;
+}
+.btn-retour{
+    position: relative;
+    float: right;
+}
+.btn-retour:hover{
+    background: salmon;
+    transition: ease-out;
+} 
+.imagez{
+    margin-left:50px;
+    margin-top: -15px;
+}                                                                                                                                  
+.navbar{
+    display: flex;
+    position: relative; 
+    left: 150px;
+}
+.sa,.sa1{
+    text-align: center;
+    font-weight: 800;
+}
+.navbar .sa a{
+    text-decoration: none;
+    list-style: none;
+}
+.navbar .sa a:hover{
+    color: none;
+    transition: 0px;
+    border-bottom: none;    
+}
+.navbar li{
+    list-style-type: none;
+}
+.navbar a{
+    color:black;
+    font-weight: 700;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+.navbar a:hover{
+       color: salmon;
+       transition: ease-out;
+       border-bottom: 2px solid salmon;    
+}
+section{
+    position: relative;
+    left: 200px;
+    width: 70%;
+}
+label{
+    cursor: pointer;
+}
+#contenu,b,#lala,textarea,#plus,b{
+    display: none;
+    cursor: pointer;
+}
+#contenu:checked+b,#lala:checked+textarea,#plus:checked+b{
+    display: block; 
+}
+
+b{
+    color:black ;
+    font-weight: 600;
+}
+b:hover{
+    color: violet;
+}
+.theme{
+    display: flex;
+    justify-content: space-between;
+}
+.theme{
+    width: 1016px;
+    flex-basis: 508px;
+}
+.theme a,.th2 a{
+    list-style: none;
+    text-decoration: none;
+}
+.theme a em,.th2 a em{
+    text-transform:uppercase;
+    font-weight: 700;
+    color: black
+}
+.theme a em:hover{
+    color: salmon;
+    transition: ease-out;
+    border-bottom: 2px solid salmon;
+}
+footer em{
+    padding: 20px 40px; 
+    border-left: 2px solid black;
+    border-right: 2px solid black;
+    border-bottom: 2px solid black;
+    border-top: 2px solid black;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+footer{
+    box-shadow: 10px 10px  10px 20px gray;
+    margin-top: 120px;
+}
+footer{
+    
+    padding: 20px;
+    border-radius: 8px;
+}
+.foot{
+    display: flex;
+    justify-content: space-between;
+}
+footer p{
+    margin-top: 15px;
+    font-size: 20px;
+}
+.faran{
+    margin-top: 20px;
+}
+.th2{
+    margin-top: 70px;
+}
+.th2 a em{
+    position: relative;
+    left: 400px;
+}
+.th2 a em:hover{
+    color: salmon;
+    transition: ease-out;
+    border-bottom: 2px solid salmon; 
+}  
+.theme a em{
+    position: relative;
+    left: 100px;
+}
+.vide1,.vide2{
+    margin-top: 70px;
+    margin-bottom: 30px;
+}
+.l1,.l2{
+    font-size: 30px;
+}
+.theme1{
+    display: flex;
+    justify-content: space-evenly;
+}

@@ -1,0 +1,51 @@
+.Logo{
+    margin-left: -200px;
+    font-weight: 900;
+    margin-top: 20px;
+}
+
+body{
+    margin-left: 200px;
+    overflow-x: hidden;
+}
+h3{
+    text-transform: uppercase;
+}
+.imagez{
+    margin-left:50px;
+    margin-top: 8px;
+}  
+ins,kbd,map,x{
+    color: blueviolet;
+}
+ul{
+    cursor: progress;
+    
+}
+li:hover{
+    color: blueviolet;
+    letter-spacing: 2px;
+}
+.conc{
+    position: center;
+    width: 1000px;
+    height: 400px;
+    margin-left:50px;
+
+}
+.btn-retour{
+    padding: 10px 20px;
+    background: pink;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: black;
+    border-radius: 8px;
+}
+.btn-retour{
+    position: relative;
+    float: right;
+}
+.btn-retour:hover{
+    background: salmon;
+    transition: ease-out;
+} 
